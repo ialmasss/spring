@@ -1,0 +1,10 @@
+app:
+  greeting:
+    message: "hello"
+
+spring:
+  application:
+    name: practice2
+
+server:
+  port: 8080

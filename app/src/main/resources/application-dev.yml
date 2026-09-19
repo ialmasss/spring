@@ -1,0 +1,3 @@
+app:
+  greeting:
+    message: "hello its the dev"
