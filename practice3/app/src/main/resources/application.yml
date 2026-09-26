@@ -1,0 +1,11 @@
+app:
+  greeting:
+    message: "hello, this is the default config"
+    fancy: false
+
+spring:
+  application:
+    name: practice2
+
+server:
+  port: 8080
