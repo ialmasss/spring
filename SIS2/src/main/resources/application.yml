@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: sis2
+  datasource:
+    url: jdbc:postgresql://localhost:5433/sis
+    username: sis
+    password: sis
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 2
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+  flyway:
+    enabled: true
